@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nostalgia.Web", "Nostalgia.Web\Nostalgia.Web.csproj", "{80647229-5617-48E7-BF04-338E00B3AFCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nostalgia.Tests", "Nostalgia.Tests\Nostalgia.Tests.csproj", "{2614D341-D2F0-46E4-860C-00FC0A9FA5F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80647229-5617-48E7-BF04-338E00B3AFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80647229-5617-48E7-BF04-338E00B3AFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80647229-5617-48E7-BF04-338E00B3AFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80647229-5617-48E7-BF04-338E00B3AFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2614D341-D2F0-46E4-860C-00FC0A9FA5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2614D341-D2F0-46E4-860C-00FC0A9FA5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2614D341-D2F0-46E4-860C-00FC0A9FA5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2614D341-D2F0-46E4-860C-00FC0A9FA5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

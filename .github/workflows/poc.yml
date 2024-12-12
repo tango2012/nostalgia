@@ -23,5 +23,5 @@ jobs:
 
       - name: List file
         run: |
-          ls -la
+          ls -la tools
           pwd

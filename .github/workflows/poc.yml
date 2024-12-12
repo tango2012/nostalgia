@@ -17,7 +17,7 @@ jobs:
       - name: Checkout OTHER repository
         uses: actions/checkout@v2
         with:
-          respository: NHSDigital/software-engineering-quality-framework
+          repository: NHSDigital/software-engineering-quality-framework
           path: tools/nhsd-git-secrets
           ref: refs/heads/main
 

@@ -26,4 +26,15 @@ jobs:
           ls -la tmp/tools/nhsd-git-secrets
           pwd
 
-     
+
+      - name: Preparing folder and file permissions
+        run: |
+          chmod 700 ./tmp/tools/nhsd-git-secrets/scan-repo-linux-mac.sh
+          chmod 700 ./tmp/tools/nhsd-git-secrets/git-secrets
+          cp ./tmp/tools/nhsd-git-secrets/git-secrets ${{ github.workspace }}
+          ls -al ${{ github.workspace }}
+         
+      - name: Run Secret scan
+        run: ./nhsd-git-secrets/scan-repo-linux-mac.sh
+
+  

@@ -19,7 +19,7 @@ jobs:
         with:
           respository: NHSDigital/software-engineering-quality-framework
           path: tools/nhsd-git-secrets
-          ref: main
+          ref: refs/heads/main
 
       - name: List file
         run: |

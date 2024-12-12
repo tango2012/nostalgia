@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+
+      - name: Checkout THIS repository
+        uses: actions/checkout@v2
      
-      - name: Check out repository code
+      - name: Checkout OTHER repository
         uses: actions/checkout@v2
         with:
           respository: NHSDigital/software-engineering-quality-framework

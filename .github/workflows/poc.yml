@@ -35,6 +35,6 @@ jobs:
           ls -al ${{ github.workspace }}
          
       - name: Run Secret scan
-        run: ./nhsd-git-secrets/scan-repo-linux-mac.sh
+        run: ./tmp/tools/nhsd-git-secrets/scan-repo-linux-mac.sh
 
   

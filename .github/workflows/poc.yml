@@ -23,7 +23,7 @@ jobs:
 
       - name: List file
         run: |
-          ls -la tools/nhsd-git-secrets
+          ls -la tools/nhsd-git-secrets/
           pwd
 
      

@@ -39,6 +39,7 @@ jobs:
       - name: Run Secret scan
         run: |
           ls -al
+          ls -al nhsd-git-secrets
           ./nhsd-git-secrets/scan-repo-linux-mac.sh
 
   

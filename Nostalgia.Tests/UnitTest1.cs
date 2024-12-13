@@ -8,7 +8,8 @@ namespace Nostalgia.Tests
         [Fact]
         public void Test1()
         {
-
+            var TOKEN = "fakepassword";
+            
         }
     }
 }

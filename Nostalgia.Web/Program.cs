@@ -15,6 +15,7 @@ namespace Nostalgia
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            var PASSWORD = "somefakepassword123";
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

@@ -31,6 +31,8 @@ jobs:
         run: |
           cp -r tmp/tools/nhsd-git-secrets ${{ github.workspace }}
           ls -al ${{ github.workspace }}
+          sed -i 's/cd ..//' ${{ github.workspace }}/nhsd-git-secrets/scan-repo-linux-mac.sh
+          cat ${{ github.workspace }}/nhsd-git-secrets/scan-repo-linux-mac.sh
           chmod 700 ./nhsd-git-secrets/scan-repo-linux-mac.sh
           chmod 700 ./nhsd-git-secrets/git-secrets
           cp ./nhsd-git-secrets/git-secrets ${{ github.workspace }}
@@ -40,7 +42,6 @@ jobs:
         run: |
           ls -al
           ls -al nhsd-git-secrets
-          cd nhsd-git-secrets
-          ./scan-repo-linux-mac.sh
+          ./nhsd-git-secrets/scan-repo-linux-mac.sh
 
   

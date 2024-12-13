@@ -40,6 +40,6 @@ jobs:
         run: |
           cd nhsd-git-secrets
           ls -al
-          ./nhsd-git-secrets/scan-repo-linux-mac.sh
+          ./scan-repo-linux-mac.sh
 
   

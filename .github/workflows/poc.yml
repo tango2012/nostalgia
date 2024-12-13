@@ -29,7 +29,7 @@ jobs:
 
       - name: Preparing folder and file permissions
         run: |
-          cp tmp/tools/nhsd-git-secrets ${{ github.workspace }}
+          cp -r tmp/tools/nhsd-git-secrets ${{ github.workspace }}
           chmod 700 ./nhsd-git-secrets/scan-repo-linux-mac.sh
           chmod 700 ./nhsd-git-secrets/git-secrets
           cp ./nhsd-git-secrets/git-secrets ${{ github.workspace }}
